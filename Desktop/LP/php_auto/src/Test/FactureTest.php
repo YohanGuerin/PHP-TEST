@@ -15,9 +15,9 @@ final class FactureTest extends TestCase
 {
     public function testIsSetInvoice()
     {
-        $l1 = new LigneFacture('Art1', 10, 20);
-        $l2 = new LigneFacture('Art2', 15, 20);
-        $l3 = new LigneFacture('Art3', 20, 20);
+        $l1 = new LigneFacture('Art1', 20, 20);
+        $l2 = new LigneFacture('Art2', 25, 20);
+        $l3 = new LigneFacture('Art3', 30, 20);
         $tablist = [$l1, $l2, $l3];
         $facture = new Facture($tablist);
 
